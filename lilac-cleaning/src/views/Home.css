@@ -49,9 +49,10 @@
     display: flex;
     justify-content: space-between;
     width: 75%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     text-align: center;
+    margin-bottom: 10vh;
   }
   
   .feature {
