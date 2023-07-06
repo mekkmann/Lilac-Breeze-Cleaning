@@ -6,7 +6,9 @@ import './header.css';
 const Header = () => {
   return (
     <header className="header">
-      <div className="logo">Lilac Breeze</div>
+      <div className="logo">
+        <p className='logo-title'>Lilac Breeze</p>
+      </div>
       <nav>
         <Link to={"/"} className="header-button">Home</Link>
         <Link to={"/bookservice"} className="header-button">Book</Link>
