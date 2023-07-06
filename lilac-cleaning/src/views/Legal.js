@@ -1,9 +1,10 @@
 import React from 'react';
 
+import "./ViewBase.css";
+
 const Legal = () => {
   return (
-    <div>
-      <h1>Lilac Breeze Cleaning LLC</h1>
+    <div className='content'>
       <h3>LEGAL</h3>
       {/* Add your content */}
     </div>

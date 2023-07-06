@@ -1,10 +1,11 @@
 import React from 'react';
 
+import "./ViewBase.css";
+
 const Home = () => {
   return (
-    <div>
-      <h1>Lilac Breeze Cleaning LLC</h1>
-      {/* Add your content */}
+    <div className='content'>
+      <h1>Welcome to a breeze of a choice!</h1>
     </div>
   );
 };

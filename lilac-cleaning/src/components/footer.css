@@ -1,0 +1,27 @@
+.footer {
+    background-color: #e6ddd6;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+    /* border: 1px solid black; */
+}
+
+.contact {
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-thing {
+    text-decoration: none;
+    margin-right: 0.6rem;
+    padding: 0.5rem 0.75rem;
+    color: #333;
+    border: none;
+    border-radius: 0.25rem;
+    text-align: center;
+}
+  
