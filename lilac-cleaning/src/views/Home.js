@@ -21,16 +21,16 @@ const Home = () => {
   return (
     <div className="homepage">
       <section className="hero">
+        <div className="hero-image">
+          <img src={"https://picsum.photos/150"} alt="PLACEHOLDER" />
+        </div>
         <div className="hero-content">
-          <h1>Welcome to Lilac Breeze Cleaning!</h1>
-          <p>Discover the best products and services</p>
-          <form onSubmit={handleHeroSubmit}>
+          <h1>Multilingual Cleaning Services in Stockholm</h1>
+          <p></p>
+          <form onSubmit={handleHeroSubmit} className='hero-form'>
             <input type='text' id='text-input' placeholder="Postal Code" value={heroInput} onChange={handleHeroInputChange}/>
             <button type="submit" className="cta-button">Get Started</button>
           </form>
-        </div>
-        <div className="hero-image">
-          {/* Add your hero image here */}
         </div>
       </section>
 
