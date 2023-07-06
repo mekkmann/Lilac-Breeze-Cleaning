@@ -1,6 +1,5 @@
 import React from 'react';
 
-import "./ViewBase.css";
 
 const Legal = () => {
   return (
