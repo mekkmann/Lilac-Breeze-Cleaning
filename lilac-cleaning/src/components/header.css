@@ -12,7 +12,7 @@ nav {
     /* border: 1px solid black; */
     width: 80%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
 }
 .logo {
     /* border: 1px solid black; */
@@ -27,15 +27,32 @@ nav {
     text-decoration: none;
     margin-right: 0.6rem;
     padding: 0.5rem 0.75rem;
-    background-color: #333;
-    color: #fff;
+    color: #333;
     border: none;
-    border-radius: 0.25rem;
+    border-radius: 1rem;
     cursor: pointer;
-    width: 15%;
+    width: 8%;
     text-align: center;
 }
 .header-button:hover{
+    background-color: #a37cf0;
+    color: #fff;
+}
+
+#header-book {
+    text-decoration: none;
+    margin-right: 0.6rem;
+    padding: 0.5rem 0.75rem;
+    background-color: #333;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    width: 10%;
+    text-align: center;
+}
+#header-book:hover{
     background-color: #a37cf0;
 }
   

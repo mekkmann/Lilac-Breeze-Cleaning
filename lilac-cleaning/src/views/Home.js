@@ -22,38 +22,48 @@ const Home = () => {
     <div className="homepage">
       <section className="hero">
         <div className="hero-image">
-          <img src={"https://picsum.photos/150"} alt="PLACEHOLDER" />
+          <img src={"https://picsum.photos/id/152/150/150"} alt="PLACEHOLDER" />
         </div>
         <div className="hero-content">
           <h1>Multilingual Cleaning Services in Stockholm</h1>
-          <p></p>
+          <br/>
           <form onSubmit={handleHeroSubmit} className='hero-form'>
-            <input type='text' id='text-input' placeholder="Postal Code" value={heroInput} onChange={handleHeroInputChange}/>
+            <input type='number' id='text-input' placeholder="Postal Code" value={heroInput} onChange={handleHeroInputChange}/>
             <button type="submit" className="cta-button">Get Started</button>
           </form>
         </div>
       </section>
-
+      <br/>
+      <br/>
+        <h1>How does it work?</h1>
+      <br/>
+      <br/>
       <section className="features">
         <div className="feature">
           <div className="feature-icon">
+          <h2>1</h2>
+
             {/* Add your feature icon here */}
           </div>
-          <h2>Feature 1</h2>
+          <h2>Fill out the form</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         <div className="feature">
           <div className="feature-icon">
             {/* Add your feature icon here */}
+            
+                        <h2>2</h2>
           </div>
-          <h2>Feature 2</h2>
+          <h2>Pay the deposit</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         <div className="feature">
           <div className="feature-icon">
             {/* Add your feature icon here */}
+            <h2>3</h2>
+
           </div>
-          <h2>Feature 3</h2>
+          <h2>Await our arrival</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
       </section>

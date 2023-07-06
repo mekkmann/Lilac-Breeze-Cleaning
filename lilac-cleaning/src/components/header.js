@@ -11,8 +11,9 @@ const Header = () => {
       </div>
       <nav>
         <Link to={"/"} className="header-button">Home</Link>
-        <Link to={"/bookservice"} className="header-button">Book</Link>
-        <Link to={"/legal"} className="header-button">Legal & FAQ</Link>
+        <Link to={"/prices"} className="header-button">Prices</Link>
+        <Link to={"/legal"} className="header-button">About</Link>
+        <Link to={"/bookservice"} id='header-book'>Book</Link>
       </nav>
     </header>
   );
