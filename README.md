@@ -1,3 +1,3 @@
 # IN PROGRESS
 # Lilac-Breeze-Cleaning
-Containing both backend and frontend for a Cleaning Company to showcase my skills in X, X, X and X
+Currently containing just the unfinished front end for a fake cleaning company
